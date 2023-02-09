@@ -7,13 +7,16 @@ Pracując na systemie ratunkowym mogliśmy wykorzystywać bibliotekę _RPi.GPIO_
 
 
 Schemat ideowy podłączenia buzzera do RPi:  
-    <img src="uploads/5f673c3a3ea12b4f36ce4072e1da08dc/image.png" alt="drawing" width="400" height="400"/>
+    <img src="https://user-images.githubusercontent.com/80155305/217686204-213d6f44-6cd6-4d00-8eca-893f332b8016.png" alt="drawing" width="400" height="400"/>
+
 
 ## Switch
 Przećwiczyliśmy również obsługę GPIO jako wejścia. Podłączyliśmy zewnętrzny przycisk oraz uruchomiliśmy wewnętrzny rezystor PULL-UP. Po wciśnięciu guzika, na konsoli szeregowej pojawiał się stosowny komunikat. ➡️ plik `gpio_in.py`
 
 Schemat ideowy podłączenia zewnętrznego przycisku do RPi:  
-    <img src="uploads/66cf0f960e14f00027109de87189d5ab/image.png" alt="drawing" width="400" height="400"/>
+    <img src="https://user-images.githubusercontent.com/80155305/217686217-b3d48c33-b008-4817-8626-64447dd81a71.png" alt="drawing" width="400" height="400"/>
+
+
 
 
 Przygotowaliśmy również programy do obsługi czujnika odległości (`zad_5.py`) oraz akcelerometru (`zad_6.py`), lecz z powodu ograniczeń czasowych przeszliśmy do kompilacji własnych pakietów w OpenWRT. 
