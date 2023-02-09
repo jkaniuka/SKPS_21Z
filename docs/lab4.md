@@ -28,7 +28,9 @@ Finalnie kompilacja powiodła się :heavy_check_mark:
 W ramach projektu planujemy zrealizować system, który realizuje sterowanie elementem wykonawczym (serwomechanizmem) na podstawie danych z czujnika (przycisków _microswitch_). Ponieważ przynajmniej jeden z wykorzystanych podzespołów powinien używać interfejsu I2C lub SPI, dodamy do projektu wyświetlacz LCD 2x16. Wykorzystamy konwerter I2C dla wyświetlacza ze sterownikiem HD44780.  
 
 Schemat ideowy projektu:  
-    <img src="uploads/7838f6ed6059ab43ec7b6c430af3c7be/image.png" alt="drawing" width="600" height="400"/>
+    <img src="https://user-images.githubusercontent.com/80155305/217686351-6cb0931f-6e4f-45ae-8819-8fca5cbb42b3.png" alt="drawing" width="600" height="400"/>
+   
+
 
 
 
