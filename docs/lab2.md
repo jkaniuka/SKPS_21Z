@@ -2,7 +2,7 @@
 
 Laboratorium rozpoczęliśmy od podłączenia RaspberryPi do komputera, zasilania oraz internetu (po uprzednim sprawdzeniu stanu połączeń przez Prowadzącego). Kolejnym krokiem była instalacja środowiska OpenWRT:
 
-### Instalacja OpenWRT :arrow_double_down: :desktop:  
+### Instalacja OpenWRT :arrow_double_down:
 
 W terminalu wpisywaliśmy kolejno poniższe komendy:  
 
@@ -44,11 +44,12 @@ Pobraliśmy następujące pakiety wspomagające pracę z modułami komunikujący
 
 ### Miganie diodą z poziomu konsoli:  
 Podłączyliśmy diodę poprzez rezystor zgodnie z poniższym schematem:  
-    <img src="uploads/98fc4f51e372286d246df9f53f2e027f/image.png" alt="drawing" width="400" height="400"/>
+    <img src="https://user-images.githubusercontent.com/80155305/217685224-194ce376-655e-4a0b-9ae3-a45b8a25cbb9.png" alt="drawing" width="400" height="400"/>
+
 
 
 **Program konsolowy:** 
-<img src="uploads/a2b3ac1518d38e4c9ca5104fe0729048/image.png" alt="drawing" width="500" height="100"/>
+<img src="https://user-images.githubusercontent.com/80155305/217685256-3180f9fa-fd9c-4c49-bf36-b742ef83e39a.png" alt="drawing" width="500" height="100"/>
 
 
 Z powodu braku dokumentacji i ograniczonych funkcjonalności pakietu *gpiod-tools* oraz utrudnionego doinstalowywania potrzebnych bibliotek z z poziomu OpenWRT zdecydowaliśmy się przywrócić system ratunkowy i korzystać z modułu RPi.GPIO. 
@@ -74,14 +75,11 @@ Zmiana jasności diody LED z wykorzystaniem PWM
 ### 1) - miganie ON/OFF
 ### 2) - wykorzystanie PWM  
 
-<img src="uploads/ab7bb488efac69a47e49806ec4fc73cb/image.png" alt="drawing" width="300" height="300"/>
+<img src="https://user-images.githubusercontent.com/80155305/217685354-7b375dac-a503-4c9b-b07a-715dd608bced.png" alt="drawing" width="300" height="300"/>  <img src="https://user-images.githubusercontent.com/80155305/217685400-bcba2188-0157-4453-98bf-52f9083a2fff.png" alt="drawing" width="300" height="300"/>
 
 
 
-<img src="uploads/d5aa8f9ed22619c6fd216ddba9443613/image.png" alt="drawing" width="300" height="300"/>
 
-
- 
 
 
 
