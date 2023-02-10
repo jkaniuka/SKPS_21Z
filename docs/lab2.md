@@ -71,12 +71,6 @@ Płynna zmiana jasności LED z wykorzystaniem funkcji *sin(x)*
 **Zadanie 3**     
 Zmiana jasności diody LED z wykorzystaniem PWM  
 
-### Filmy prezentujące działanie programów :movie_camera: :  
-### 1) - miganie ON/OFF
-### 2) - wykorzystanie PWM  
-
-<img src="https://user-images.githubusercontent.com/80155305/217685354-7b375dac-a503-4c9b-b07a-715dd608bced.png" alt="drawing" width="300" height="300"/>  <img src="https://user-images.githubusercontent.com/80155305/217685400-bcba2188-0157-4453-98bf-52f9083a2fff.png" alt="drawing" width="300" height="300"/>
-
 
 
 
