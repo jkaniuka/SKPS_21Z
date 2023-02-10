@@ -11,7 +11,7 @@ System zasadniczo składa się z dwóch, głównych elementów: cześć sprzęto
 
 ## Schemat części sprzętowej:
 
-![image](uploads/c4907df38d2efaa46e1a8fd3868da815/image.png)
+![image](https://user-images.githubusercontent.com/80155305/218193212-fb52a415-0bd7-4324-9802-46d97f723ccb.png)
 
 
 ## Opis zastosowanych rozwiązań (+literatura):
@@ -33,9 +33,11 @@ Wyświetlacz zgłosił się poprawnie pod adresem `0x27`. Następnie mogliśmy w
 * https://pymotw.com/2/socket/tcp.html?fbclid=IwAR2zj6oylEKK6yndhSTZwy5r11O0cJGFQMXyBwc2xwDv96wUByNJdbR6az0
 
 ## Schematyczne przedstawienie całego systemu:
-![image](uploads/3590fef03982c35fb51ed7f555832dd2/image.png)
+![image](https://user-images.githubusercontent.com/80155305/218193321-1d4367e6-c46d-4184-af7e-27528e180d4d.png)
+
 ## Struktura mechanizmu komunikacji: 
-![image](uploads/43a169e3d834e63248a48f2bd98ca729/image.png)
+![image](https://user-images.githubusercontent.com/80155305/218193336-6af3d4e2-c182-46bf-b8bd-7758aa4fdf50.png)
+
 
 ## Napotkane problemy:  
 * zadawanie zbyt dużych wartości wypełnia sygnału PWM powodowało gwałtowne zmniejszenie jasności ekranu LCD z powodu zbyt dużego poboru prądu (nie używano dodatkowego zasilacza np. do serwomechanizmu - wszystkie peryferiale zasilano bezpośrednio z RaspberryPi) 
@@ -51,9 +53,12 @@ Na ostatnich zajęciach przetestowano działanie całego systemu:
 
 ## Zdjęcia:
 <div align="center">
- <img src="uploads/7193ce5e957db1d6f54de8b7dcb9b311/image.png"/> 
- <img src="uploads/cbc95fe4265de143062a57957f2c2ea6/image.png"/> 
+ <img src="https://user-images.githubusercontent.com/80155305/218193411-7f832a71-06a9-41b3-bfbf-80a4af9134fa.png"/> 
+ <img src="https://user-images.githubusercontent.com/80155305/218193416-5ea533bc-263a-4709-9479-3543bb5919f0.png"/> 
 </div>
+
+
+
 
 ## Filmy :film_projector: - [link do filmu](https://drive.google.com/file/d/1voAXFOp_HdNxVKS13TqZxOZjEw8is6sm/view?usp=sharing)
 
