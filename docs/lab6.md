@@ -8,12 +8,13 @@ Zajęcia rozpoczęto od modyfikacji schematu w programie _Fritzing_. Dodano do n
 
 Finalnie schemat budowanego systemu wyglądał w następujący sposób:
 <div align="center">
- <img src="uploads/f73ccdc4bb57c07001ea056142dda108/image.png" width="600" height="400"/> 
+ <img src="https://user-images.githubusercontent.com/80155305/218192843-e344b972-f5f9-426c-b925-cb67ee061c42.png" width="600" height="400"/> 
 </div>
 
 <div align="center">
- <img src="uploads/9130a7b5721e127830ccda496c572d27/image.png"/> 
+ <img src="https://user-images.githubusercontent.com/80155305/218192874-4af1206e-494c-4563-a881-70e79583abc2.png"/> 
 </div>
+
 
 
 ## Napotkane problemy: 
