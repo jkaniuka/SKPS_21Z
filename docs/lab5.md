@@ -8,14 +8,18 @@ W ramach projektu będziemy budować system, który realizuje sterowanie element
 
 ## Opracowanie schematu budowanego układu: 
 Schemat układu budowanego w ramach projektu został wykonany w programie _Fritzing_. 
-![image](uploads/9d0ddc25652ee8dd233c6dd980179e70/image.png)
+![image](https://user-images.githubusercontent.com/80155305/218191972-c1946ff9-ef80-4625-9d7a-03f2e5531a2a.png)
+
 
 **Komentarz**: Na powyższym schemacie użyliśmy diody LED zamiast serwomechanizmu. Stwierdziliśmy, że będzie to bezpieczniejsze rozwiązanie, które pozwoli na sprawdzenie poprawności działania zaimplementowanego _PWM_. Po pozytywnych wynikach testów dołączyliśmy serwomechanizm równolegle z diodą LED. Mając na uwadze rosnący pobór prądu w miarę wzrostu liczby elementów elektronicznych w układzie postanowiliśmy wyłączyć podświetlenie wyświetlacza LED zdejmując odpowiednią zworkę. 
 
 Złożony podczas laboratorium układ prezentował się następująco:  
 <div align="center">
- <img src="uploads/29f264de48091c5f04194ab3b3c34be2/image.png" width="400" height="400"/> 
+ <img src="https://user-images.githubusercontent.com/80155305/218192059-00a8c4fb-4501-440e-9f30-2d7bbf0d8a9e.png" width="400" height="400"/> 
 </div>
+
+
+
 
 
 ## Opis implementacji: :floppy_disk:   
@@ -51,8 +55,10 @@ demo all
 
 Film prezentujący funkcjonalności **prototypu**:  
 <div align="center">
- <img src="uploads/253e763de5f134d9c450202de90d53aa/servo_cut.mp4" width="100" height="100"/> 
+ <video src="https://user-images.githubusercontent.com/80155305/218192280-274c7d67-40d5-4cda-905f-99248ca8f1f0.mp4" width="100" height="100"/> 
 </div>
+
+
 
 ## Testy komunikacji TCP/IP z wykorzystaniem transmisji przez _Sockety_ :telephone_receiver:  
 Istotną częścią projektu jest zbieranie danych pomiarowych i prezentowanie ich w interfejsie
@@ -62,7 +68,7 @@ parametrów, zmiana trybu pracy). Stwierdziliśmy, że dobrym rozwiązaniem będ
   
 Test nawiązania połączenia i wymiany komunikatów zakończył się pomyślenie :ok_hand:. RPi przesłało komunikat znakowy do PC, a PC przesłał w odpowiedzi komunikat do RPi. 
 
-## Do zrobienia :tools: :
+## Do zrobienia: 
 Na ostatnich zajęciach laboratoryjnych skupimy się na dopracowaniu systemu sterowania serwomechanizem poprzez różne przyciski na klawiaturze membranowej. Postaramy się również przeprowadzić testy działania interfejsu użytkownika (GUI).
 
 
